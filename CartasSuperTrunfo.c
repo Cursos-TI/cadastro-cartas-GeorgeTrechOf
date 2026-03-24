@@ -13,7 +13,7 @@ int main() {
   int Numero_de_pontos_turisticos;
 
   // Área para entrada de dados
-  printf("Qual o nome a população da cidade ? \n");
+  printf("Qual é a população da cidade ? \n");
   scanf("%d",& populacao); 
 
   printf("Qual a área da cidade ?\n");
@@ -22,16 +22,16 @@ int main() {
   printf("Qual o PIB da cidade ?\n");
   scanf ("%f",& PIB);
 
-  printf("Quantos pontos turísticos ela tem ?");
+  printf("Quantos pontos turísticos ela tem ?\n");
   scanf ("%d",& Numero_de_pontos_turisticos);
 
 
   // Área para exibição dos dados da cidade
-  
+  printf ("\n Dados da cidade: \n")
   printf ("A população da cidade é de %d\n", populacao);
   printf ("A área é: %f\n", area);
-  printf ("O PIB é de: %f \n" PIB)
-  printf ("A quatidade de pontos turísticos é: %d" Numero_de_pontos_turisticos)
+  printf ("O PIB é de: %f \n", PIB);
+  printf ("A quatidade de pontos turísticos é: %d", Numero_de_pontos_turisticos);
 
 return 0;
 } 
