@@ -6,6 +6,7 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
+
   //Variaveos para a carta 1
   char estado1;
   char[] codigo1, nome1;
@@ -47,13 +48,42 @@ int main() {
   scanf ("%f",& pib1);
 
   printf("Quantos pontos turísticos ela tem ?\n");
-  scanf ("%d",& Numero_de_pontos_turisticos);
+  scanf ("%d",& Numero_de_pontos_turisticos1);
 
-  densidade1= populacao1/area1
-  pib_percapta1= pib1 / populacao1
+  densidade1= populacao1/area1;
+  pib_percapta1= pib1 / populacao1;
+
+  //coletando as informações da carta 2
+  printf("** Digite as informaçoes da carta 2 **\n")
+
+  printf("A qual estado a carta pertence ?\n"); //pergunta
+  scanf("%c",& estado2); //a resposta e arnazena
+
+  printf("Qual o código da cidade ?\n");
+  scanf ("%c",& codigo2);
+
+  printf("Qual o nome da cidade ?\n");
+  scanf ("%c",& nome2);
+
+  printf("Qual a população da cidade ?\n");
+  scanf ("%d",& populacao2);
+
+  printf("Qual a área da cidade ?\n");
+  scanf ("%f",& area2);
+
+  printf("Qual o PIB da cidade ?\n");
+  scanf ("%f",& pib2);
+
+  printf("Quantos pontos turísticos ela tem ?\n");
+  scanf ("%d",& Numero_de_pontos_turisticos2);
+
+  densidade2= populacao2/area2;
+  pib_percapta2= pib2 / populacao2;
 
 
   // Área para exibição dos dados da cidade
+printf("*** TODAS AS INFORMAÇÕES COLETADAS*** \N *EXIBINDOS INFORMAÇÕES* \N")
+
 
   //aqui em baixo eles mostram os dados coletados 
   printf ("\n Dados da cidade: \n"); //colocado pra ter um divisão entre os dados e as perguntas
