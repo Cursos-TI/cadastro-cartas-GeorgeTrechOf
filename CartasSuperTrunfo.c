@@ -7,7 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   //Variaveos para a carta 1
-  char estado1; 
+  char estado1;
   char[] codigo1, nome1;
   int populacao1, Numero_de_pontos_turisticos1;
   float area1, pib1;
@@ -20,21 +20,37 @@ int main() {
   float area2, pib2;
   float densidade2, pib_percapta2;
   
-
   // Área para entrada de dados
 
   //Os "printf" são para perguntar a informação é os "scanf" pegão a informação é armazenam
-  printf("Qual é a população da cidade ? \n"); //pergunta
-  scanf("%d",& populacao); //respode e arnazena
+  printf("*** Cartas Super  Trunfo ***\n\n")
+
+  //coletando as informações da carta 1
+  printf("** Digite as informaçoes da carta 1 **\n")
+
+  printf("A qual estado a carta pertence ?\n"); //pergunta
+  scanf("%c",& estado1); //a resposta e arnazena
+
+  printf("Qual o código da cidade ?\n");
+  scanf ("%c",& codigo1);
+
+  printf("Qual o nome da cidade ?\n");
+  scanf ("%c",& nome1);
+
+  printf("Qual a população da cidade ?\n");
+  scanf ("%d",& populacao1);
 
   printf("Qual a área da cidade ?\n");
-  scanf ("%f",& area);
+  scanf ("%f",& area1);
 
   printf("Qual o PIB da cidade ?\n");
-  scanf ("%f",& PIB);
+  scanf ("%f",& pib1);
 
   printf("Quantos pontos turísticos ela tem ?\n");
   scanf ("%d",& Numero_de_pontos_turisticos);
+
+  densidade1= populacao1/area1
+  pib_percapta1= pib1 / populacao1
 
 
   // Área para exibição dos dados da cidade
