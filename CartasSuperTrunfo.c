@@ -9,14 +9,14 @@ int main() {
 
   //Variaveos para a carta 1
   char estado1;
-  char[] codigo1, nome1;
+  char codigo1, nome1;
   int populacao1, Numero_de_pontos_turisticos1;
   float area1, pib1;
   float densidade1,pib_percapta1;
 
   //Variaveos para a carta 2
   char estado2; 
-  char[] codigo2, nome2;
+  char codigo2, nome2;
   int populacao2, Numero_de_pontos_turisticos2;
   float area2, pib2;
   float densidade2, pib_percapta2;
@@ -24,10 +24,10 @@ int main() {
   // Área para entrada de dados
 
   //Os "printf" são para perguntar a informação é os "scanf" pegão a informação é armazenam
-  printf("*** Cartas Super  Trunfo ***\n\n")
+  printf("*** Cartas Super  Trunfo ***\n\n");
 
   //coletando as informações da carta 1
-  printf("** Digite as informaçoes da carta 1 **\n")
+  printf("** Digite as informaçoes da carta 1 **\n");
 
   printf("A qual estado a carta pertence ?\n"); //pergunta
   scanf("%c",& estado1); //a resposta e arnazena
@@ -54,7 +54,7 @@ int main() {
   pib_percapta1= pib1 / populacao1;
 
   //coletando as informações da carta 2
-  printf("** Digite as informaçoes da carta 2 **\n")
+  printf("** Digite as informaçoes da carta 2 **\n");
 
   printf("A qual estado a carta pertence ?\n"); //pergunta
   scanf("%c",& estado2); //a resposta e arnazena
@@ -82,7 +82,7 @@ int main() {
 
 
   // Área para exibição dos dados da cidade
-printf("*** TODAS AS INFORMAÇÕES COLETADAS*** \N *EXIBINDOS INFORMAÇÕES* \N")
+printf("*** TODAS AS INFORMAÇÕES COLETADAS*** \N *EXIBINDOS INFORMAÇÕES* \N");
 
 //Estado, codigo, nome, população, area, pib, numero de pontos t, dencidade popula, pib per cap
 
