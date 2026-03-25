@@ -84,13 +84,19 @@ int main() {
   // Área para exibição dos dados da cidade
 printf("*** TODAS AS INFORMAÇÕES COLETADAS*** \N *EXIBINDOS INFORMAÇÕES* \N")
 
+//Estado, codigo, nome, população, area, pib, numero de pontos t, dencidade popula, pib per cap
 
-  //aqui em baixo eles mostram os dados coletados 
-  printf ("\n Dados da cidade: \n"); //colocado pra ter um divisão entre os dados e as perguntas
-  printf ("A população da cidade é de %d\n", populacao);
-  printf ("A área é: %f\n", area);
-  printf ("O PIB é de: %f \n", PIB);
-  printf ("A quatidade de pontos turísticos é: %d \n", Numero_de_pontos_turisticos);
+  //aqui em baixo eles mostram os dados coletados da carta 1
+  printf("\n### Carta 1 ###\n");
+  printf ("Estado: %c\n", estado1);
+  printf ("Código: %c\n", codigo1);
+  printf ("Nome da Cidade: %c\n", nome1);
+  printf ("População: %d\n", populacao1);
+  printf ("Área: %f km² \n", area1);
+  printf ("PIB: %f bilhões de reais \n", pib1);
+  printf ("Número de Pontos Turísticos: %d \n", Numero_de_pontos_turisticos1);
+  printf ("Densidade Populacional: %f \n", densidade1);
+  printf ("PIB per Capita: %f \n", pib_percapta1);
 
 return 0;
 } 
